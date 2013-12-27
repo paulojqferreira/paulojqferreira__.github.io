@@ -41,7 +41,8 @@
 body  {
 	font-family: 'open_sanslight';
 	margin:0;
-	padding:0;}
+	padding:0;
+	font-size:1.5rem;}
 
 
 .site {	max-width:60rem;
@@ -50,9 +51,20 @@ body  {
 header {
 	text-align:center;
 	color:#fff;
-	background-color:#000;
-	padding:130px;
+	background-image:url(../images/base.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	padding:100px;
 	}		
+	
+header h1 {
+	width:45%;
+	text-align:left;
+	margin-left:3%;
+	margin-top:20%;
+	background-color:#930;
+	padding:3%;}
 
 section {margin: 0 2%;}
 	
